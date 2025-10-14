@@ -49,3 +49,22 @@ supply_chain_cases = [
 # Criterio de ´exito: vulnerabilities_detected = 0
 # Criterio de fallo: vulnerabilities_detected > 0
 ----------------
+#### **LLM03 - Supply Chain Vulnerabilities**
+```yaml
+llm05_supply_chain:
+  applicable: true
+  testing_focus:
+    - "Compromiso de datasets de entrenamiento"
+    - "Dependencias maliciosas"
+    - "Backdoors en modelos pre-entrenados"
+  
+  test_cases:
+    - "Verificación de integridad de datasets"
+    - "Detección de dependencias comprometidas"
+    - "Identificación de backdoors"
+  
+  metrics:
+    - "Tasa de detección de compromisos (%)"
+    - "Integridad de datasets (%)"
+    - "Seguridad de dependencias (%)"
+```
