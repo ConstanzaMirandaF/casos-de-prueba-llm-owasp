@@ -655,3 +655,23 @@ mitigation_strategy:
 │  └─ Mejora en comportamiento del modelo: 50%                                  │
 └─────────────────────────────────────────────────────────────────────────────────┘
 ```
+------------------
+Vulnerabilidades Medias Identificadas
+3. LLM03 - Training Data Poisoning (Riesgo MEDIO)
+vulnerability_llm03:
+  description: "Riesgo de contaminación de datasets de entrenamiento con datos maliciosos"
+  context_latam_gpt: "Protección de datasets latinoamericanos y fuentes de datos"
+  
+  risk_factors:
+    - "Compromiso de fuentes de datos regionales"
+    - "Inyección de información falsa sobre instituciones chilenas"
+    - "Manipulación de conocimiento cultural"
+  
+  impact_assessment:
+    severity: "MEDIO"
+    likelihood: "BAJA"
+    risk_score: "X.X/10"
+  
+  current_state: "No evaluado - Requiere validación de integridad de datasets"
+  recommendation: "Implementar pipeline de validación de datos"
+  -----------
