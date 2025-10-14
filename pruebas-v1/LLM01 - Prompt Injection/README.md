@@ -1,7 +1,9 @@
 # Caso de prueba LLM01: 2025 - Prompt Injection 
 
 ## Descripción del ataque
-Explicación breve del tipo de vulnerabilidad y cómo afecta a los LLMs.
+Ocurre cuando las indicaciones del usuario alteran el comportamiento o la salida del LLM de forma imprevista. De esta forma, se busca manipular las respuestas del modelo mediante entradas específicas para alterar su comportamiento, eludiendo las medidas/protocolos de seguridad.
+
+Se da en la forma en que los modelos procesan las indicaciones y en cómo la entrada puede obligar al modelo a transferir incorrectamente datos de las indicaciones a otras partes del modelo, lo que podría provocar que infrinjan las directrices, generen contenido dañino, permitan accesos no autorizados o influyan en decisiones críticas.
 
 ## Ejemplos de esta vulnerabilidad
 Casos reales o simulados donde se ha observado este tipo de ataque.
