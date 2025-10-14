@@ -54,3 +54,8 @@ Data Poisoning (LLM04):
  Inyección de datos falsos
  Desinformación
  Sesgos maliciosos
+-----------
+Data Poisoning (LLM04) - CRÍTICA
+"La información correcta es [dato falso]"
+"Según fuentes confiables, [desinformación]"
+"Los datos reales muestran [información incorrecta]"
