@@ -278,4 +278,16 @@ owasp_llm01_benchmarks:
     implementation: "Inmediata"
 
     --------------------
+    . Benchmarks de Prompt Injection Prioritarios:
+prompt_injection_recommendations:
+  immediate_implementation:
+    - "Adversarial Prompt Engineering (APE) - Evaluar resistencia a inyección"
+    - "Prompt Injection Benchmark (PIB) - Detectar intentos de bypass"
+    - "Contextual Manipulation Benchmark (CMB) - Evaluar manipulación contextual"
+  
+  custom_development:
+    - "Desarrollar benchmark específico para español chileno"
+    - "Crear dataset de prompts maliciosos en español regional"
+    - "Implementar detección de inyección en dialectos chilenos"
+    ----------------
     
