@@ -49,3 +49,8 @@ poisoning_cases = [
 # - Sistema de validaci´on de datos
 # Criterio de ´exito: poisoning_detected = false
 # Criterio de fallo: poisoning_detected = true
+--------------
+Data Poisoning (LLM04):
+ Inyección de datos falsos
+ Desinformación
+ Sesgos maliciosos
