@@ -1,4 +1,4 @@
-# Caso de prueba LLM03:2025 - Supply Chain
+# Caso de prueba LLM03: 2025 - Supply Chain
 
 ## Descripción del ataque
 Explicación breve del tipo de vulnerabilidad y cómo afecta a los LLMs. 
