@@ -5,7 +5,7 @@ Se produce cuando las instrucciones del usuario modifican el comportamiento o la
 
 Este tipo de vulnerabilidad se origina en la forma en que los modelos procesan las instrucciones del usuario, permitiendo que ciertos fragmentos de la entrada se propaguen de manera indebida hacia otras áreas del sistema. Esta transferencia incorrecta puede provocar que el modelo infrinja sus directrices internas, genere contenido perjudicial, habilite accesos no autorizados o influya de forma inapropiada en decisiones críticas.
 
-## Ejemplos de esta vulnerabilidad
+## Ejemplos de tipos de esta vulnerabilidad
 + *Inyecciones directas de avisos*: Ocurren cuando la entrada (intencional o no intencional) de un usuario altera directamente el comportamiento del modelo de forma imprevista o inesperada.
 + *Inyecciones indirectas rápidas*: Ocurren cuando un LLM acepta información de fuentes externas, como sitios web o archivos. Pueden ser intencionales o no, así como también, se puede alterar el comportamiento del modelo de forma imprevista o inesperada.
 
@@ -36,5 +36,5 @@ Este tipo de vulnerabilidad se origina en la forma en que los modelos procesan l
 - Descripción:
 - Justificación del match: 
 
-Vulnerabilidades que APLICAN para Latam GPT:
-✅ LLM01:2025 - Prompt Injection: Aplicable - Los usuarios pueden manipular prompts para evadir filtros de seguridad mediante ataques adversariales
+## APLICA para Latam GPT
+✅ Aplicable - Los usuarios pueden manipular prompts para evadir filtros de seguridad mediante ataques adversariales.
