@@ -35,3 +35,6 @@ Este tipo de vulnerabilidad se origina en la forma en que los modelos procesan l
 - Técnica MITRE ATLAS relacionada: 
 - Descripción:
 - Justificación del match: 
+
+Vulnerabilidades que APLICAN para Latam GPT:
+✅ LLM01:2025 - Prompt Injection: Aplicable - Los usuarios pueden manipular prompts para evadir filtros de seguridad mediante ataques adversariales
