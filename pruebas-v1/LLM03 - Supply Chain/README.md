@@ -48,3 +48,4 @@ supply_chain_cases = [
 # - Sistema de firmas digitales
 # Criterio de ´exito: vulnerabilities_detected = 0
 # Criterio de fallo: vulnerabilities_detected > 0
+----------------
