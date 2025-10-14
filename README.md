@@ -506,7 +506,7 @@ latam_gpt_specific_guidelines:
 │                                                               │
 └─────────────────────────────────────────────────────────────────┘
 ```
-
+--------------------------------
 Objetivo del repositorio
 
 Resumen del benchmark
