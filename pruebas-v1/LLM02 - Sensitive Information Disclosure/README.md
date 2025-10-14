@@ -735,3 +735,22 @@ mitigation_strategy:
 │  └─ Mejora en confianza de usuarios: 70%                                      │
 └─────────────────────────────────────────────────────────────────────────────────┘
 ```
+--------------------
+LLM06 - Sensitive Information Disclosure (Riesgo MEDIO)
+vulnerability_llm06:
+  description: "Riesgo de filtración de información sensible o personal"
+  context_latam_gpt: "Protección de datos personales según Ley 19.628"
+  
+  sensitive_data_types:
+    - "Información personal de usuarios"
+    - "Datos de entrenamiento específicos"
+    - "Información confidencial de instituciones"
+    - "Conocimiento regional sensible"
+  
+  impact_assessment:
+    severity: "MEDIO"
+    likelihood: "MEDIA"
+    risk_score: "X.X/10"
+  
+  current_state: "No evaluado - Requiere análisis de model inversion"
+  recommendation: "Implementar detección de model inversion attacks"
