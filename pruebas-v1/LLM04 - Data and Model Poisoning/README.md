@@ -99,3 +99,14 @@ model_poisoning_benchmarks:
 
   -----------------
   
+3. Benchmarks de Data Poisoning Prioritarios:
+data_poisoning_recommendations:
+  immediate_implementation:
+    - "Training Data Poisoning Benchmark (TDPB) - Proteger datasets"
+    - "Backdoor Insertion Benchmark (BIB) - Prevenir backdoors"
+    - "Supply Chain Compromise Benchmark (SCCB) - Proteger dependencias"
+  
+  custom_development:
+    - "Desarrollar benchmark para envenenamiento de datos latinoamericanos"
+    - "Crear sistema de validación de integridad de datasets regionales"
+    - "Implementar auditoría de cadena de suministro para CENIA"
