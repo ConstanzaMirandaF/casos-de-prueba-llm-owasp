@@ -216,88 +216,93 @@ latam_gpt_specific_guidelines:
 ---------------------------------
 FASE 1: PREPARACIÓN Y ANÁLISIS (Semanas 1-2)
 Semana 1: Análisis de Vulnerabilidades
-•	Objetivo: Identificar vulnerabilidades específicas de Latam GPT
-•	Actividades:
-o	Revisión de 03_Casos_Prueba_LLMs_Latam_GPT.md
-o	Análisis de 11_Papers_Fundamentales_Latam_GPT.md
-o	Configuración del entorno de testing
-•	Entregables: Reporte de vulnerabilidades identificadas
+	Objetivo: Identificar vulnerabilidades específicas de Latam GPT
+	Actividades:
+	Revisión de 03_Casos_Prueba_LLMs_Latam_GPT.md
+	Análisis de 11_Papers_Fundamentales_Latam_GPT.md
+	Configuración del entorno de testing
+
+	Entregables: Reporte de vulnerabilidades identificadas
+
 Semana 2: Configuración de Herramientas
-•	Objetivo: Preparar entorno de testing adversarial
-•	Actividades:
-o	Implementación de 06_Codigo_Testing_Pentesting_Latam_GPT.md
-o	Configuración de 07_ATLAS_Navigator_Latam_GPT.md
-o	Preparación de 02_Checklist_Pentesting_Latam_GPT.md
-•	Entregables: Entorno de testing funcional
+	Objetivo: Preparar entorno de testing adversarial
+	Actividades:
+	Implementación de 06_Codigo_Testing_Pentesting_Latam_GPT.md
+	Configuración de 07_ATLAS_Navigator_Latam_GPT.md
+	Preparación de 02_Checklist_Pentesting_Latam_GPT.md
+	Entregables: Entorno de testing funcional
+
 FASE 2: IMPLEMENTACIÓN DE TESTING ADVERSARIAL (Semanas 3-6)
+
 FASE 3: EVALUACIÓN Y MITIGACIÓN (Semanas 7-8)
 Semana 7: Análisis con MITRE ATLAS
-•	Objetivo: Mapear vulnerabilidades al framework de amenazas
-•	Actividades:
-o	Uso de 05_MITRE_ATLAS_Latam_GPT.md
-o	Mapeo de técnicas identificadas
-o	Identificación de mitigaciones
-•	Entregables: Matriz de amenazas y mitigaciones
+	Objetivo: Mapear vulnerabilidades al framework de amenazas
+	Actividades:
+	Uso de 05_MITRE_ATLAS_Latam_GPT.md
+	Mapeo de técnicas identificadas
+	Identificación de mitigaciones
+	Entregables: Matriz de amenazas y mitigaciones
+
 Semana 8: Reporte Final y Recomendaciones
-•	Objetivo: Generar reporte ejecutivo y plan de mitigación
-•	Actividades:
-o	Uso de 04_Template_Reporte_Pentesting_Latam_GPT.md
-o	Generación de recomendaciones específicas
-o	Plan de implementación de mitigaciones
-•	Entregables: Reporte final de pentesting y plan de acción
-•	**Enfoque:** Ciberseguridad técnica de LLMs | **Objetivo:** Testing adversarial para demostrar robustez  
-•	**Referencia:** [OWASP Top 10 LLM 2025](https://genai.owasp.org/resource/owasp-top-10-for-llm-applications-2025/) | [OWASP AI Exchange](https://owaspai.org) | [MITRE ATLAS](https://atlas.mitre.org)
-•	
-•	### **Objetivos Específicos de Ciberseguridad**
-•	
-•	1. **Identificación Proactiva de Vulnerabilidades**
-•	   - Detectar vulnerabilidades OWASP LLM01:2025-LLM10:2025 en el modelo Latam GPT
-•	   - Mapear vectores de ataque específicos para contexto latinoamericano
-•	   - Evaluar riesgos de seguridad en componentes críticos del sistema
-•	
-•	2. **Testing Adversarial Sistemático**
-•	   - Desarrollar casos de prueba específicos para cada vulnerabilidad identificada
-•	   - Implementar testing de prompt injection adaptado a español latinoamericano
-•	   - Validar resistencia a ataques de extracción de modelo y datos
-•	
-•	3. **Validación de Contramedidas Técnicas**
-•	   - Evaluar efectividad de filtros de toxicidad en contexto regional
-•	   - Testing de anonimización de datos con Microsoft Presidio
-•	   - Validación de mecanismos de detección de ataques adversariales
-•	
-•	4. **Cumplimiento Normativo y Certificación**
-•	   - Asegurar cumplimiento de normativa chilena de seguridad (requiere otro tipo de especialista)
-•	   - Implementar estándares OWASP AI Exchange para certificación (fuera del alcance)
-•	   - Establecer gobernanza de seguridad técnica para el proyecto (fuera del alcance)
-•	
-•	---
-•	La estrategia de seguridad se estructura en cuatro fases secuenciales:
-•	
-•	1. **CONTEXTO**: Identificación de vulnerabilidades técnicas específicas (OWASP LLM01:2025-LLM10:2025) en el modelo Latam GPT
-•	2. **ANÁLISIS**: Evaluación de vulnerabilidades críticas adaptadas al contexto latinoamericano y español chileno
-•	3. **TESTING**: Diseño y ejecución de casos de prueba específicos para cada vulnerabilidad identificada
-•	4. **IMPLEMENTACIÓN**: Integración del plan de testing adversarial con el cronograma de desarrollo del proyecto
-•	
-•	### **Fundamentos del Enfoque de Testing Adversarial**
-•	
-•	La adopción de testing adversarial se fundamenta en los siguientes principios técnicos:
-•	
-•	- **Demostración activa de robustez** mediante testing sistemático, no solo declaración de intenciones
-•	- **Identificación proactiva de vulnerabilidades** antes de su explotación por actores maliciosos
-•	- **Validación empírica de contramedidas** mediante testing activo y reproducible
-•	- **Cumplimiento de normativa chilena** de seguridad y protección de datos
-•	- **Protección de activos tecnológicos** de alto valor estratégico para la región
-•	
-•	### **Justificación de la Metodología OWASP AI Exchange**
-•	
-•	La selección de OWASP AI Exchange como framework metodológico se basa en:
-•	
-•	- **Estandarización internacional** de procesos de testing para sistemas de inteligencia artificial
-•	- **Especialización específica** en vulnerabilidades propias de modelos de lenguaje de gran escala
-•	- **Certificación reconocida** internacionalmente en el ámbito de seguridad de IA
-•	- **Herramientas especializadas** para testing adversarial en sistemas de IA
-•	
-•	---
+	Objetivo: Generar reporte ejecutivo y plan de mitigación
+	Actividades:
+	Uso de 04_Template_Reporte_Pentesting_Latam_GPT.md
+	Generación de recomendaciones específicas
+	Plan de implementación de mitigaciones
+	Entregables: Reporte final de pentesting y plan de acción
+	**Enfoque:** Ciberseguridad técnica de LLMs | **Objetivo:** Testing adversarial para demostrar robustez  
+
+----------------------------
+### **Objetivos Específicos de Ciberseguridad**
+	
+	1. **Identificación Proactiva de Vulnerabilidades**
+	   - Detectar vulnerabilidades OWASP LLM01:2025-LLM10:2025 en el modelo Latam GPT
+	   - Mapear vectores de ataque específicos para contexto latinoamericano
+	   - Evaluar riesgos de seguridad en componentes críticos del sistema
+	
+	2. **Testing Adversarial Sistemático**
+	   - Desarrollar casos de prueba específicos para cada vulnerabilidad identificada
+	   - Implementar testing de prompt injection adaptado a español latinoamericano
+	   - Validar resistencia a ataques de extracción de modelo y datos
+	
+	3. **Validación de Contramedidas Técnicas**
+	   - Evaluar efectividad de filtros de toxicidad en contexto regional
+	   - Testing de anonimización de datos con Microsoft Presidio
+	   - Validación de mecanismos de detección de ataques adversariales
+	
+	4. **Cumplimiento Normativo y Certificación**
+	   - Asegurar cumplimiento de normativa chilena de seguridad (requiere otro tipo de especialista)
+	   - Implementar estándares OWASP AI Exchange para certificación (fuera del alcance)
+	   - Establecer gobernanza de seguridad técnica para el proyecto (fuera del alcance)
+	
+---
+	La estrategia de seguridad se estructura en cuatro fases secuenciales:
+	
+	1. **CONTEXTO**: Identificación de vulnerabilidades técnicas específicas (OWASP LLM01:2025-LLM10:2025) en el modelo Latam GPT
+	2. **ANÁLISIS**: Evaluación de vulnerabilidades críticas adaptadas al contexto latinoamericano y español chileno
+	3. **TESTING**: Diseño y ejecución de casos de prueba específicos para cada vulnerabilidad identificada
+	4. **IMPLEMENTACIÓN**: Integración del plan de testing adversarial con el cronograma de desarrollo del proyecto
+----------	
+	### **Fundamentos del Enfoque de Testing Adversarial**
+	
+	La adopción de testing adversarial se fundamenta en los siguientes principios técnicos:
+	
+	- **Demostración activa de robustez** mediante testing sistemático, no solo declaración de intenciones
+	- **Identificación proactiva de vulnerabilidades** antes de su explotación por actores maliciosos
+	- **Validación empírica de contramedidas** mediante testing activo y reproducible
+	- **Cumplimiento de normativa chilena** de seguridad y protección de datos
+	- **Protección de activos tecnológicos** de alto valor estratégico para la región
+	
+	### **Justificación de la Metodología OWASP AI Exchange**
+	
+	La selección de OWASP AI Exchange como framework metodológico se basa en:
+	
+	- **Estandarización internacional** de procesos de testing para sistemas de inteligencia artificial
+	- **Especialización específica** en vulnerabilidades propias de modelos de lenguaje de gran escala
+	- **Certificación reconocida** internacionalmente en el ámbito de seguridad de IA
+	- **Herramientas especializadas** para testing adversarial en sistemas de IA
+	
+-------
 
 Fases de Testing Adversarial
 owasp_ai_exchange_methodology:
@@ -367,7 +372,7 @@ El testing se centrará en las 7 vulnerabilidades aplicables, enfocándose en:
 **Alcance:** Sistema de LLM Latam GPT (Responsabilidades Técnicas de Ciberseguridad)  
 **Clasificación:** CONFIDENCIAL
 
----
+-------------
 
 ## 📋 RESUMEN EJECUTIVO
 
@@ -396,7 +401,7 @@ El testing se centrará en las 7 vulnerabilidades aplicables, enfocándose en:
 - **Vulnerabilidad Media**: Bypass de filtros culturales en X% de casos
 - **Vulnerabilidad Baja**: Logging insuficiente en X% de endpoints
 
----
+--------------
 
 ## 🎯 METODOLOGÍA DE PENTESTING
 
