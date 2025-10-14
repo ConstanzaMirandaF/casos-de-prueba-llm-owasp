@@ -51,3 +51,6 @@ consumption_cases = [
 # - Sistema de rate limiting
 # Criterio de ´exito: resource_exhaustion = false
 # Criterio de fallo: resource_exhaustion = true
+-----------
+regional_vulnerability_focus:
+    - "LLM10:2025 - Unbounded Consumption en APIs (AML.T0051)"
