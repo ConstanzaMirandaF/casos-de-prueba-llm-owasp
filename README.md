@@ -1,5 +1,9 @@
 # Casos-de-prueba-llm-owasp
 
+## Trazabilidad con MITRE ATLAS
+
+Cada caso de prueba está vinculado con una o más técnicas del marco MITRE ATLAS, lo que permite contextualizar las vulnerabilidades en escenarios reales de ataque contra sistemas de inteligencia artificial. Esta trazabilidad fortalece la validez del benchmark y facilita su uso en entornos regulados o de alto riesgo.
+
 Objetivo del repositorio
 
 Resumen del benchmark
