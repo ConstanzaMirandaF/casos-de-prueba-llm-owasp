@@ -1,7 +1,7 @@
 ## Resumen de Casos de Prueba
 
 | IDENTIFICACIÓN | Descripción del ataque | Objetivo de detección | Resultados esperados | Acción |
-|----------------|------------------------|------------------------|----------------------|[Haga clic aquí](./pruebas-v1/LLM01-Prompt-Injection/README.md)|
+|----------------|------------------------|------------------------|----------------------|[Haga clic aquí](./pruebas-v1/LLM01 - Prompt Injection/README.md)|
 | LLM01: 2025    | Prompt Injection       |------------------------|----------------------|--------|
 | LLM02: 2025    | Sensitive Information Disclosure |------------------------|----------------------|--------|
 | LLM03: 2025    | Supply Chain           |------------------------|----------------------|--------|
