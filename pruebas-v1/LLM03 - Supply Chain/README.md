@@ -568,3 +568,19 @@ mitigation_strategy:
 │  └─ Mejora en confianza de la cadena de suministro: 70%                       │
 └─────────────────────────────────────────────────────────────────────────────────┘
 ```
+-----------------
+Recomendaciones Medias (Implementar en 60 días)
+5. Supply Chain Security:
+supply_chain_security:
+  actions:
+    - "Implementar verificación de integridad de dependencias"
+    - "Desarrollar auditoría de cadena de suministro"
+    - "Configurar monitoreo de cambios en dependencias"
+    - "Implementar firmas digitales para componentes"
+  
+  technical_implementation:
+    - "Verificación de hashes de dependencias"
+    - "Análisis de vulnerabilidades en dependencias"
+    - "Monitoreo de actualizaciones"
+    - "Validación de fuentes de dependencias"
+    ---------------------
