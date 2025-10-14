@@ -110,3 +110,23 @@ data_poisoning_recommendations:
     - "Desarrollar benchmark para envenenamiento de datos latinoamericanos"
     - "Crear sistema de validación de integridad de datasets regionales"
     - "Implementar auditoría de cadena de suministro para CENIA"
+------------
+#### **LLM04 - Training Data Poisoning**
+```yaml
+llm03_data_poisoning:
+  applicable: true
+  testing_focus:
+    - "Contaminación de datos de entrenamiento"
+    - "Inyección de información falsa regional"
+    - "Manipulación de conocimiento local"
+  
+  test_cases:
+    - "Verificación de información sobre instituciones chilenas"
+    - "Validación de datos históricos regionales"
+    - "Detección de información falsa local"
+  
+  metrics:
+    - "Tasa de detección de datos envenenados (%)"
+    - "Precisión de información regional (%)"
+    - "Resistencia a manipulación (%)"
+```
