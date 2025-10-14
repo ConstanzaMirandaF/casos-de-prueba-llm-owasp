@@ -1,10 +1,13 @@
 # LLM04: 2025 - Data and Model Poisoning
 
 ## Descripción del ataque
-Explicación breve del tipo de vulnerabilidad y cómo afecta a los LLMs.
+Los atacantes pueden envenenar los datos de entrenamiento o el modelo para hacer que el LLM se comporte de maneras no intencionadas, como generar contenido sesgado o dañino.
 
 ## Ejemplos de esta vulnerabilidad
-Casos reales o simulados donde se ha observado este tipo de ataque.
++ *Training Data Poisoning*: Contaminación de datos de entrenamiento.
++ *Model Poisoning*: Envenenamiento del modelo durante entrenamiento.
++ *Backdoor Attacks*: Ataques de puerta trasera en el modelo.
++ *Bias Injection*: Inyección de sesgos en el modelo.
 
 ## Consecuencias de esta vulneración
 Impacto potencial en la seguridad, privacidad, funcionamiento o reputación del sistema.
@@ -17,3 +20,6 @@ Medidas técnicas o procedimentales que pueden reducir el riesgo o bloquear el a
 - Técnica MITRE ATLAS relacionada: 
 - Descripción:
 - Justificación del match: 
+
+## APLICA para Latam GPT:
+✅ CRÍTICO - Los datos de entrenamiento y pesos del modelo están abiertos, entregando conocimiento para etapas de reconocimiento y posterior desarrollo de malware para contaminación mediante ataques de poisoning al modelo. Si sigue aprendiendo durante el tiempo, la misma interacción puede permitir contaminar la data con la cual se entrena el modelo. O en el caso más burdo, las fuentes de datos de entrenamiento y re-entrenamiento son vulneradas.
