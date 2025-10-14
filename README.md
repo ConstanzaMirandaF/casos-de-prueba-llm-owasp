@@ -1,5 +1,32 @@
 # Casos-de-prueba-llm-owasp
 
+Objetivo del repositorio
+
+Resumen del benchmark
+
+Metodología ✅
+
+Cómo seleccionaste los ataques
+
+Por qué esos 7 del OWASP Top 10
+
+Criterios de priorización
+
+Entorno de pruebas ✅
+
+Qué modelo LLM estás usando
+
+Cómo se simulan los ataques
+
+Herramientas utilizadas (mención general)
+
+Estructura del repositorio
+
+Cómo contribuir o ejecutar los casos
+
+Enlaces a versiones o carpetas
+
+--------------
 Para acceder a la primera versión, [haga clic aquí](./pruebas-v1/README.md).
 
 ## Contenido
