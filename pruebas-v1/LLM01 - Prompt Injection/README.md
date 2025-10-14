@@ -781,3 +781,37 @@ vulnerability_llm01:
   current_state: "No evaluado - Requiere testing específico"
   recommendation: "Implementar testing inmediato con casos específicos regionales"
   ---------------
+Métricas de Prompt Injection
+prompt_injection_metrics:
+  injection_success_rate:
+    description: "Tasa de inyección exitosa"
+    calculation: "(Inyecciones exitosas / Total intentos) * 100"
+    target: "< 5%"
+    current: "No medido"
+  
+  filter_effectiveness:
+    description: "Efectividad de filtros de seguridad"
+    calculation: "1 - (Falsos negativos / Total ataques)"
+    target: "> 95%"
+    current: "No medido"
+  
+  detection_time:
+    description: "Tiempo promedio de detección"
+    calculation: "Suma(tiempos de detección) / Número de detecciones"
+    target: "< 100ms"
+    current: "No medido"
+    --------------------
+    Recomendaciones Críticas (Implementar Inmediatamente)
+1. Prompt Injection Mitigation:
+prompt_injection_mitigation:
+  immediate_actions:
+    - "Implementar filtros multi-capa de validación de prompts"
+    - "Desarrollar detección de patrones de bypass en español chileno"
+    - "Configurar respuestas genéricas para prompts sospechosos"
+    - "Implementar logging completo de intentos de inyección"
+  
+  technical_implementation:
+    - "Validación de entrada con regex específicas para español"
+    - "Análisis de contexto de prompts"
+    - "Detección de caracteres especiales y codificación"
+    - "Filtros de contenido malicioso"
