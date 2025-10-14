@@ -17,3 +17,6 @@ Medidas técnicas o procedimentales que pueden reducir el riesgo o bloquear el a
 - Técnica MITRE ATLAS relacionada: 
 - Descripción:
 - Justificación del match:
+
+## APLICA para Latam GPT:
+✅ Aplicable - Dependencias de bibliotecas (Presidio, PyTorch, Transformers) pueden ser vulneradas mediante ataques de supply chain.
