@@ -1,4 +1,4 @@
-# Caso de prueba LLM02:2025 - Sensitive Information Disclosure
+# Caso de prueba LLM02: 2025 - Sensitive Information Disclosure
 
 ## Descripción del ataque
 Explicación breve del tipo de vulnerabilidad y cómo afecta a los LLMs.
