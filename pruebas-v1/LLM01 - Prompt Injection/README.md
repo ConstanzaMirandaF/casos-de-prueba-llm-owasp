@@ -88,3 +88,4 @@ Entregables: Reporte de vulnerabilidades de prompt injection
 -----------
 regional_vulnerability_focus:
     - "LLM01:2025 - Prompt Injection con jerga local (AML.T0051)"
+----------------
