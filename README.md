@@ -1,5 +1,7 @@
 # Casos-de-prueba-llm-owasp
 
+Para acceder a la primera versión, [haga clic aquí](./pruebas-v1/README.md).
+
 ## Contenido
 Este repositorio contiene un plan de pruebas compuesto por 7 casos de ataque, diseñados para evaluar la seguridad de aplicaciones que integran modelos de lenguaje grandes (LLMs). Cada caso aborda un tipo específico de amenaza descrita en el OWASP Top 10 para sistemas con LLMs.
 
