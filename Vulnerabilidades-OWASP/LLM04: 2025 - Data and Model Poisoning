@@ -13,7 +13,10 @@ Los atacantes pueden envenenar los datos de entrenamiento o el modelo para hacer
 Impacto potencial en la seguridad, privacidad, funcionamiento o reputación del sistema.
 
 ## Estrategias de prevención y mitigación
-Medidas técnicas o procedimentales que pueden reducir el riesgo o bloquear el ataque.
++ Validación rigurosa de datos de entrenamiento.
++ Implementación de detección de anomalías.
++ Uso de técnicas de robustez adversarial.
++ Monitoreo continuo del comportamiento del modelo.
 
 ## Relación con MITRE ATLAS
 
