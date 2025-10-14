@@ -59,3 +59,6 @@ Data Poisoning (LLM04) - CRÍTICA
 "La información correcta es [dato falso]"
 "Según fuentes confiables, [desinformación]"
 "Los datos reales muestran [información incorrecta]"
+------------
+regional_vulnerability_focus:
+    - "LLM04 - Data and Model Poisoning con contenido regional (AML.T0054)"
