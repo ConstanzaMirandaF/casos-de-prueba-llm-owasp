@@ -251,3 +251,31 @@ prompt_injection_benchmarks_for_latam_gpt = {
 }
 
 -------------------
+
+Benchmarks de Protección OWASP LLM
+1. OWASP LLM01 - Prompt Injection
+Benchmarks Específicos:
+owasp_llm01_benchmarks:
+  prompt_injection_resistance:
+    - "OWASP LLM01 Benchmark Suite"
+    - "Resistencia a inyección de prompts"
+    - "Bypass de restricciones de seguridad"
+    priority: "CRÍTICA"
+    implementation: "Inmediata"
+  
+  input_validation:
+    - "Input Validation Benchmark (IVB)"
+    - "Validación robusta de entradas"
+    - "Sanitización de prompts"
+    priority: "CRÍTICA"
+    implementation: "Inmediata"
+  
+  context_validation:
+    - "Context Validation Benchmark (CVB)"
+    - "Validación de contexto de prompts"
+    - "Detección de manipulación contextual"
+    priority: "CRÍTICA"
+    implementation: "Inmediata"
+
+    --------------------
+    
