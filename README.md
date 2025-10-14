@@ -212,47 +212,8 @@ latam_gpt_specific_guidelines:
     - "Cumplimiento Ley 19.799 (Firma Electrónica)"
 ```
 
----
----------------------------------
-FASE 1: PREPARACIÓN Y ANÁLISIS (Semanas 1-2)
-Semana 1: Análisis de Vulnerabilidades
-	Objetivo: Identificar vulnerabilidades específicas de Latam GPT
-	Actividades:
-	Revisión de 03_Casos_Prueba_LLMs_Latam_GPT.md
-	Análisis de 11_Papers_Fundamentales_Latam_GPT.md
-	Configuración del entorno de testing
+-------
 
-	Entregables: Reporte de vulnerabilidades identificadas
-
-Semana 2: Configuración de Herramientas
-	Objetivo: Preparar entorno de testing adversarial
-	Actividades:
-	Implementación de 06_Codigo_Testing_Pentesting_Latam_GPT.md
-	Configuración de 07_ATLAS_Navigator_Latam_GPT.md
-	Preparación de 02_Checklist_Pentesting_Latam_GPT.md
-	Entregables: Entorno de testing funcional
-
-FASE 2: IMPLEMENTACIÓN DE TESTING ADVERSARIAL (Semanas 3-6)
-
-FASE 3: EVALUACIÓN Y MITIGACIÓN (Semanas 7-8)
-Semana 7: Análisis con MITRE ATLAS
-	Objetivo: Mapear vulnerabilidades al framework de amenazas
-	Actividades:
-	Uso de 05_MITRE_ATLAS_Latam_GPT.md
-	Mapeo de técnicas identificadas
-	Identificación de mitigaciones
-	Entregables: Matriz de amenazas y mitigaciones
-
-Semana 8: Reporte Final y Recomendaciones
-	Objetivo: Generar reporte ejecutivo y plan de mitigación
-	Actividades:
-	Uso de 04_Template_Reporte_Pentesting_Latam_GPT.md
-	Generación de recomendaciones específicas
-	Plan de implementación de mitigaciones
-	Entregables: Reporte final de pentesting y plan de acción
-	**Enfoque:** Ciberseguridad técnica de LLMs | **Objetivo:** Testing adversarial para demostrar robustez  
-
-----------------------------
 ### **Objetivos Específicos de Ciberseguridad**
 	
 	1. **Identificación Proactiva de Vulnerabilidades**
@@ -276,12 +237,7 @@ Semana 8: Reporte Final y Recomendaciones
 	   - Establecer gobernanza de seguridad técnica para el proyecto (fuera del alcance)
 	
 ---
-	La estrategia de seguridad se estructura en cuatro fases secuenciales:
 	
-	1. **CONTEXTO**: Identificación de vulnerabilidades técnicas específicas (OWASP LLM01:2025-LLM10:2025) en el modelo Latam GPT
-	2. **ANÁLISIS**: Evaluación de vulnerabilidades críticas adaptadas al contexto latinoamericano y español chileno
-	3. **TESTING**: Diseño y ejecución de casos de prueba específicos para cada vulnerabilidad identificada
-	4. **IMPLEMENTACIÓN**: Integración del plan de testing adversarial con el cronograma de desarrollo del proyecto
 ----------	
 	### **Fundamentos del Enfoque de Testing Adversarial**
 	
@@ -353,6 +309,7 @@ owasp_ai_exchange_methodology:
     deliverables:
       - "Certificado de seguridad OWASP AI Exchange" (fuera del alcance)
       - "Plan de mantenimiento de seguridad" (fuera del alcance)
+
 Enfoque de Testing dado los supuestos
 El testing se centrará en las 7 vulnerabilidades aplicables, enfocándose en:
 •	Robustez del modelo frente a manipulación de prompts
@@ -362,44 +319,7 @@ El testing se centrará en las 7 vulnerabilidades aplicables, enfocándose en:
 •	Validación y filtrado de salidas de APIs
 •	Prevención de generación de desinformación
 •	Control de consumo de recursos computacionales
-# Template de Reporte de Pentesting para Latam GPT
 
-## Cumplimiento: ISO 27001 + OWASP + MITRE ATT&CK + Normativa Chilena
-
-**Empresa Auditada:** CENIA  
-**Fecha de Auditoría:** [Fecha]  
-**Auditor:** [Nombre del Auditor]  
-**Alcance:** Sistema de LLM Latam GPT (Responsabilidades Técnicas de Ciberseguridad)  
-**Clasificación:** CONFIDENCIAL
-
--------------
-
-## 📋 RESUMEN EJECUTIVO
-
-```
-┌─────────────────────────────────────────────────────────────────┐
-│                    RESUMEN EJECUTIVO                            │
-├─────────────────────────────────────────────────────────────────┤
-│                                                               │
-│  🎯 OBJETIVO: Evaluar la seguridad del LLM Latam GPT          │
-│  📅 PERIODO: [Fecha inicio] - [Fecha fin]                     │
-│  🔍 ALCANCE: APIs, endpoints, filtros de contenido            │
-│  ⚠️ CRÍTICOS: [X] vulnerabilidades críticas encontradas       │
-│  🔴 ALTOS: [X] vulnerabilidades altas encontradas              │
-│  🟡 MEDIOS: [X] vulnerabilidades medias encontradas            │
-│  🟢 BAJOS: [X] vulnerabilidades bajas encontradas              │
-│                                                               │
-│  📊 PUNTUACIÓN GENERAL: [X]/100                               │
-│  🏆 CLASIFICACIÓN: [EXCELENTE/BUENO/REGULAR/CRÍTICO]         │
-│                                                               │
-└─────────────────────────────────────────────────────────────────┘
-```
-
-### Hallazgos Principales:
-- **Vulnerabilidad Crítica**: Prompt Injection exitoso en X% de casos
-- **Vulnerabilidad Alta**: Model Extraction parcial en X% de intentos
-- **Vulnerabilidad Media**: Bypass de filtros culturales en X% de casos
-- **Vulnerabilidad Baja**: Logging insuficiente en X% de endpoints
 
 --------------
 
