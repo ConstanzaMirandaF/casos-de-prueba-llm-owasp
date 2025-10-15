@@ -140,24 +140,24 @@ benchmark_structure:
 ##### ** A.2 Objetivos Específicos de Ciberseguridad**
 ```yaml	
 1. **Identificación Proactiva de Vulnerabilidades**
-	   - Detectar vulnerabilidades OWASP LLM01:2025-LLM10:2025 en el modelo Latam GPT
-	   - Mapear vectores de ataque específicos para contexto latinoamericano
-	   - Evaluar riesgos de seguridad en componentes críticos del sistema
+- Detectar vulnerabilidades OWASP LLM01:2025-LLM10:2025 en el modelo Latam GPT
+- Mapear vectores de ataque específicos para contexto latinoamericano
+- Evaluar riesgos de seguridad en componentes críticos del sistema
 	
 2. **Testing Adversarial Sistemático**
-	   - Desarrollar casos de prueba específicos para cada vulnerabilidad identificada
-	   - Implementar testing de prompt injection adaptado a español latinoamericano
-	   - Validar resistencia a ataques de extracción de modelo y datos
+- Desarrollar casos de prueba específicos para cada vulnerabilidad identificada
+- Implementar testing de prompt injection adaptado a español latinoamericano
+- Validar resistencia a ataques de extracción de modelo y datos
 	
 3. **Validación de Contramedidas Técnicas**
-	   - Evaluar efectividad de filtros de toxicidad en contexto regional
-	   - Testing de anonimización de datos con Microsoft Presidio
-	   - Validación de mecanismos de detección de ataques adversariales
+- Evaluar efectividad de filtros de toxicidad en contexto regional
+- Testing de anonimización de datos con Microsoft Presidio
+- Validación de mecanismos de detección de ataques adversariales
 	
 4. **Cumplimiento Normativo y Certificación**
-	   - Asegurar cumplimiento de normativa chilena de seguridad (requiere otro tipo de especialista)
-	   - Implementar estándares OWASP AI Exchange para certificación (fuera del alcance)
-	   - Establecer gobernanza de seguridad técnica para el proyecto (fuera del alcance)
+- Asegurar cumplimiento de normativa chilena de seguridad (requiere otro tipo de especialista)
+- Implementar estándares OWASP AI Exchange para certificación (fuera del alcance)
+- Establecer gobernanza de seguridad técnica para el proyecto (fuera del alcance)
 ```
 ##### **A.3 Fundamentos del Enfoque de Testing Adversarial**
 ```yaml
