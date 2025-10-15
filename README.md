@@ -479,7 +479,6 @@ class LatamGPTSecurityEvaluator:
         }
         
         return report
-		
 ```
 -------------------------------------------------------------------------------------------------------------------------------
 ## Casos de Ataques OWASP Seleccionados 
