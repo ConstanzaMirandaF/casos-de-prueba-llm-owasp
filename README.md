@@ -13,43 +13,43 @@ Un **benchmark de pentesting** es un conjunto estandarizado de pruebas, métrica
 ## Metodología de Pentesting
 
 ```
-┌─────────────────────────────────────────────────────────────────┐
+┌────────────────────────────────────────────────────────────────┐
 │                    METODOLOGÍA APLICADA                        │
-├─────────────────────────────────────────────────────────────────┤
-│                                                               │
-│   FASE 1: RECONOCIMIENTO                                    │
+├────────────────────────────────────────────────────────────────┤
+│                                                                │
+│   FASE 1: RECONOCIMIENTO                                       │
 │  ┌─────────────────────────────────────────────────────────┐   │
 │  │ • Mapeo de APIs y endpoints disponibles                 │   │
 │  │ • Identificación de parámetros de entrada               │   │
 │  │ • Análisis de respuestas del modelo                     │   │
 │  │ • Detección de filtros de seguridad                     │   │
 │  └─────────────────────────────────────────────────────────┘   │
-│                                                               │
-│   FASE 2: ANÁLISIS DE VULNERABILIDADES                     │
+│                                                                │
+│   FASE 2: ANÁLISIS DE VULNERABILIDADES                         │
 │  ┌─────────────────────────────────────────────────────────┐   │
 │  │ • Testing de Prompt Injection (OWASP LLM01)             │   │
 │  │ • Testing de Model Extraction (OWASP LLM10)             │   │
 │  │ • Testing de Data Poisoning (OWASP LLM03)               │   │
-│  │ • Testing de Supply Chain (OWASP LLM05)                  │   │
+│  │ • Testing de Supply Chain (OWASP LLM05)                 │   │
 │  └─────────────────────────────────────────────────────────┘   │
-│                                                               │
-│   FASE 3: EXPLOTACIÓN                                      │
+│                                                                │
+│   FASE 3: EXPLOTACIÓN                                          │
 │  ┌─────────────────────────────────────────────────────────┐   │
-│  │ • Explotación de vulnerabilidades críticas               │   │
-│  │ • Bypass de filtros de seguridad                         │   │
-│  │ • Extracción de información sensible                     │   │
+│  │ • Explotación de vulnerabilidades críticas              │   │
+│  │ • Bypass de filtros de seguridad                        │   │
+│  │ • Extracción de información sensible                    │   │
 │  │ • Manipulación del comportamiento del modelo            │   │
 │  └─────────────────────────────────────────────────────────┘   │
-│                                                               │
-│   FASE 4: POST-EXPLOTACIÓN                                │
+│                                                                │
+│   FASE 4: POST-EXPLOTACIÓN                                     │
 │  ┌─────────────────────────────────────────────────────────┐   │
 │  │ • Análisis de impacto de vulnerabilidades               │   │
 │  │ • Evaluación de riesgos para CENIA                      │   │
 │  │ • Documentación de casos de prueba exitosos             │   │
 │  │ • Recomendaciones de mitigación                         │   │
 │  └─────────────────────────────────────────────────────────┘   │
-│                                                               │
-└─────────────────────────────────────────────────────────────────┘
+│                                                                │
+└────────────────────────────────────────────────────────────────┘
 ```
 
 #### **Características de un Benchmark:**
@@ -528,30 +528,30 @@ security_metrics:
     - "Tiempo de mitigación (días)"
 ```
 ```
-┌─────────────────────────────────────────────────────────────────┐
-│   MÉTRICAS ESPECÍFICAS PARA LATAM GPT:                     │
+┌────────────────────────────────────────────────────────────────┐
+│   MÉTRICAS ESPECÍFICAS PARA LATAM GPT:                         │
 │  ┌─────────────────────────────────────────────────────────┐   │
-│  │ • Tasa de Detección Cultural: >X%                      │   │
+│  │ • Tasa de Detección Cultural: >X%                       │   │
 │  │ • Resistencia Dialectal: >X%                            │   │
 │  │ • Protección Regional: >X%                              │   │
 │  │ • Validación Cultural: >X%                              │   │
-│  │ • Tiempo de Respuesta: <Xs                               │   │
+│  │ • Tiempo de Respuesta: <Xs                              │   │
 │  │ • Score de Confianza: >X.X                              │   │
 │  └─────────────────────────────────────────────────────────┘   │
-│                                                               │
-│   TABLA DE MÉTRICAS:                                       │
+│                                                                │
+│   TABLA DE MÉTRICAS:                                           │
 │  ┌─────────────────────────────────────────────────────────┐   │
-│  │ Métrica              │ Objetivo │ Actual │ Estado      │   │
-│  │──────────────────────│──────────│────────│─────────────│   │
-│  │ Detección Cultural   │ >X%     │ X%    │ ⚠️          │   │
-│  │ Resistencia Dialectal│ >X%     │ X%    │ ⚠️          │   │
-│  │ Protección Regional  │ >X%     │ X%    │ ✅          │   │
-│  │ Validación Cultural  │ >X%     │ X%    │ ✅          │   │
-│  │ Tiempo de Respuesta  │ <Xs      │ Xs    │ ✅          │   │
-│  │ Score de Confianza   │ >X.X     │ X.X   │ ⚠️          │   │
+│  │ Métrica              │ Objetivo │ Actual │ Estado       │   │
+│  │──────────────────────│──────────│────────│──────────────│   │
+│  │ Detección Cultural   │ >X%      │ X%     │ ⚠️          │   │
+│  │ Resistencia Dialectal│ >X%      │ X%     │ ⚠️          │   │
+│  │ Protección Regional  │ >X%      │ X%     │ ✅          │   │
+│  │ Validación Cultural  │ >X%      │ X%     │ ✅          │   │
+│  │ Tiempo de Respuesta  │ <Xs      │ Xs     │ ✅          │   │
+│  │ Score de Confianza   │ >X.X     │ X.X    │ ⚠️          │   │
 │  └─────────────────────────────────────────────────────────┘   │
-│                                                               │
-└─────────────────────────────────────────────────────────────────┘
+│                                                                │
+└────────────────────────────────────────────────────────────────┘
 ```
 ### Matriz de Riesgos
 
