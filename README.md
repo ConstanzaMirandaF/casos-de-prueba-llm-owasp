@@ -116,7 +116,7 @@ benchmark_structure:
 
 #### **2. Estructura Detallada por Sección**
 
-##### **A. Executive Summary**
+##### **A.1 Executive Summary**
 ```markdown
 # Benchmark de Pentesting Latam GPT - OWASP Top 10
 
@@ -137,8 +137,48 @@ benchmark_structure:
 - Vulnerabilidades OWASP LLM01-LLM10
 - Contexto latinoamericano y español chileno
 ```
-
-##### **B. Methodology Framework**
+##### ** A.2 Objetivos Específicos de Ciberseguridad**
+```yaml	
+	1. **Identificación Proactiva de Vulnerabilidades**
+	   - Detectar vulnerabilidades OWASP LLM01:2025-LLM10:2025 en el modelo Latam GPT
+	   - Mapear vectores de ataque específicos para contexto latinoamericano
+	   - Evaluar riesgos de seguridad en componentes críticos del sistema
+	
+	2. **Testing Adversarial Sistemático**
+	   - Desarrollar casos de prueba específicos para cada vulnerabilidad identificada
+	   - Implementar testing de prompt injection adaptado a español latinoamericano
+	   - Validar resistencia a ataques de extracción de modelo y datos
+	
+	3. **Validación de Contramedidas Técnicas**
+	   - Evaluar efectividad de filtros de toxicidad en contexto regional
+	   - Testing de anonimización de datos con Microsoft Presidio
+	   - Validación de mecanismos de detección de ataques adversariales
+	
+	4. **Cumplimiento Normativo y Certificación**
+	   - Asegurar cumplimiento de normativa chilena de seguridad (requiere otro tipo de especialista)
+	   - Implementar estándares OWASP AI Exchange para certificación (fuera del alcance)
+	   - Establecer gobernanza de seguridad técnica para el proyecto (fuera del alcance)
+```
+##### **A.3 Fundamentos del Enfoque de Testing Adversarial**
+```yaml
+La adopción de testing adversarial se fundamenta en los siguientes principios técnicos:
+	
+	- **Demostración activa de robustez** mediante testing sistemático, no solo declaración de intenciones
+	- **Identificación proactiva de vulnerabilidades** antes de su explotación por actores maliciosos
+	- **Validación empírica de contramedidas** mediante testing activo y reproducible
+	- **Cumplimiento de normativa chilena** de seguridad y protección de datos
+	- **Protección de activos tecnológicos** de alto valor estratégico para la región
+```
+##### **A.4 Justificación de la Metodología OWASP AI Exchange**
+```yaml
+La selección de OWASP AI Exchange como framework metodológico se basa en:
+	
+	- **Estandarización internacional** de procesos de testing para sistemas de inteligencia artificial
+	- **Especialización específica** en vulnerabilidades propias de modelos de lenguaje de gran escala
+	- **Certificación reconocida** internacionalmente en el ámbito de seguridad de IA
+	- **Herramientas especializadas** para testing adversarial en sistemas de IA
+```
+##### **B.1 Methodology Framework**
 ```yaml
 methodology_framework:
   testing_phases:
@@ -168,6 +208,69 @@ methodology_framework:
     hybrid_testing: "Combinación de métodos automáticos y manuales"
 ```
 
+##### **B.2 Fases de Testing Adversarial**
+```yaml
+owasp_ai_exchange_methodology:
+  phase_1_assessment:
+    name: "Evaluación de Arquitectura y Componentes"
+    activities:
+      - "Análisis de arquitectura del modelo Latam GPT"
+      - "Identificación de componentes críticos"
+      - "Mapeo de vectores de ataque específicos para LLMs"
+    deliverables:
+      - "Diagrama de arquitectura de seguridad" (depende de los inputs)
+      - "Matriz de amenazas específicas para LLMs"
+  
+  phase_2_testing:
+    name: "Testing Adversarial Especializado"
+    activities:
+      - "Prompt injection testing (OWASP LLM01:2025) - AML.T0051"
+      - "Sensitive information disclosure testing (OWASP LLM02:2025) - AML.T0056"
+      - "Supply chain testing (OWASP LLM03:2025) - AML.T0054"
+      - "Data and model poisoning testing (OWASP LLM04) - AML.T0054"
+      - "Improper output handling testing (OWASP LLM05:2025) - AML.T0051"
+      - "Misinformation testing (OWASP LLM09:2025) - AML.T0051"
+      - "Unbounded consumption testing (OWASP LLM10:2025) - AML.T0051"
+    deliverables:
+      - "Casos de prueba específicos para cada vulnerabilidad"
+      - "Reportes de testing adversarial"
+  
+  phase_3_validation:
+    name: "Validación de Contramedidas"
+    activities:
+      - "Testing de filtros de toxicidad (LLM01:2025)"
+      - "Validación de anonimización de datos (LLM02:2025)"
+      - "Validación de dependencias de supply chain (LLM03:2025)"
+      - "Testing de detección de ataques adversariales (LLM04)"
+      - "Validación de filtrado de salidas (LLM05:2025)"
+      - "Validación de resistencia a desinformación (LLM09:2025)"
+      - "Validación de límites de consumo (LLM10:2025)"
+    deliverables:
+      - "Reporte de efectividad de contramedidas"
+      - "Plan de implementación de mejoras"
+  
+  phase_4_certification:
+    name: "Certificación de Seguridad"
+    activities:
+      - "Auditoría final de seguridad (LLM01:2025-LLM10:2025)"
+      - "Validación de robustez frente a ataques adversariales" 
+      - "Testing de consumo de recursos (LLM10:2025)"
+    deliverables:
+      - "Certificado de seguridad OWASP AI Exchange" (fuera del alcance)
+      - "Plan de mantenimiento de seguridad" (fuera del alcance)
+```
+##### **B.3 Enfoque de Testing dado los supuestos**
+```yaml
+El testing se centrará en las 7 vulnerabilidades aplicables, enfocándose en:
+•	Robustez del modelo frente a manipulación de prompts
+•	Protección de información sensible en el entrenamiento
+•	Validación de dependencias de supply chain (bibliotecas, frameworks)
+•	Resistencia a contaminación de datos y pesos (CRÍTICO por naturaleza de código abierto)
+•	Validación y filtrado de salidas de APIs
+•	Prevención de generación de desinformación
+•	Control de consumo de recursos computacionales
+
+```
 ---
 
 ### Lineamientos para el Benchmark
